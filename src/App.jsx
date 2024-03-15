@@ -45,7 +45,7 @@ function App() {
           <AppShell.Navbar p="md">
             <Sidebar />
           </AppShell.Navbar>
-          <AppShell.Main>
+          <AppShell.Main  className={"h-screen flex"}>
             <AllNotes/>
           </AppShell.Main>
         </AppShell>
