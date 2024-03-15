@@ -7,10 +7,9 @@ import {
   Group,
   Burger,
   Title,
-  NavLink,
+
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { NotebookPen, Star, Tag } from "lucide-react";
 import Sidebar from "./components/Sidebar.jsx";
 import AllNotes from "./components/AllNotes.jsx";
 
@@ -18,7 +17,7 @@ function App() {
   const [opened, { toggle }] = useDisclosure();
 
   return (
-    <MantineProvider defaultColorScheme={"dark"}>
+    <MantineProvider defaultColorScheme={"light"}>
       <div>
         <AppShell
           header={{ height: 60 }}
